@@ -1,0 +1,11 @@
+<h3>Coupon Form </h3>
+<form>
+<form action="<%= coupons_path %>" method="POST">
+ <label> Coupon Code:</label><br>
+  <input type="text" id="coupon_code" name="coupon[coupon_code]"><br>
+
+  <label>Coupon Store</label><br>
+  <textarea id="store" name="coupon[store]"></textarea><br>
+
+  <input type="submit" value="Submit Coupon">
+</form>
